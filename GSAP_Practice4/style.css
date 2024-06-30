@@ -1,0 +1,47 @@
+@font-face{
+    font-family: PP woodland;
+    src: url(
+        font/PPWoodland-Regular.ttf
+    );
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: #556043;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+
+}
+#page2 h1{
+    font-family: PP woodland;
+    font-size: 4vw;
+    font-weight: 500;
+    text-align: center;
+    color: #434B34;
+}
+#page2 h1 span{
+    font-family: PP woodland;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+}
