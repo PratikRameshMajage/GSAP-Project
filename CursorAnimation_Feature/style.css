@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#crsr{
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    position: fixed;
+    z-index: 9;
+    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+}
+#main{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 100px;
+}
